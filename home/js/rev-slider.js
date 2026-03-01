@@ -1,0 +1,102 @@
+// Updated Revolution Slider configuration with mobile arrows enabled
+var RevSlider = function() {
+    "use strict";
+    var handleRevSliderLayout2 = function() {
+        var tpj=jQuery,         
+        revapi9;
+        tpj(document).ready(function() {
+            if(tpj("#rev-slider2").revolution == undefined){
+                revslider_showDoubleJqueryError("#rev-slider2");
+            } else {
+                revapi9 = tpj("#rev-slider2").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "js/rev-slider/",
+                    startwidth:1920,
+                    startheight:750,
+                    fullWidth:"on",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "on",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "off",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            drag_block_vertical: false,
+                            swipe_direction: "horizontal"
+                        },
+                        arrows: {
+                            style: "gyges",
+                            enable: true,
+                            hide_onmobile: false,     // Changed from true to false
+                            hide_under: 0,           // Changed from 768 to 0 (or remove this line)
+                            hide_onleave: false,     // Optional: changed to false for better mobile UX
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 10,        // Reduced offset for mobile
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 10,        // Reduced offset for mobile
+                                v_offset: 0
+                            }
+                        },
+                        bullets: {
+                            enable: false,
+                        }
+                    },
+                    viewPort: {
+                        enable: true,
+                        outof: "pause",
+                        visible_area: "80%"
+                    },
+                    responsiveLevels: [1240,1024,778,480],
+                    gridwidth: [1240,1024,778,480],
+                    gridheight: [500,450,400,350],
+                    lazyType: "smart",
+                    parallax: {
+                        type: "scroll",
+                        origo: "enterpoint",
+                        speed: 400,
+                        levels: [5,10,15,20,25,30,35,40,45,50],
+                    },
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    fullScreenOffsetContainer: ".rev-slider-offset",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        });
+    }
+
+    return {
+        init: function() {
+            handleRevSliderLayout2();
+        }
+    }
+}();
+
+$(document).ready(function() {
+    RevSlider.init();
+});
