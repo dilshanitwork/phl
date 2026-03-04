@@ -217,6 +217,35 @@
     }
 </style>
 
+<!---navigation Bar with past Seasons-->
+<div class="logo-navbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-5">
+                            <div class="logo"><a href="index.php"><img src="home/images/logo-dark.png" alt="" width="60%" style="max-width:100px; height:auto;"></a></div>
+                        </div>
+                        <div class="col-md-10 col-sm-7">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="nav-item"> <a href="index.php">Home</a></li>
+                                    <li class="nav-item"> <a href="index.php#matches">Updates</a></li>
+                                    <li class="nav-item"> <a href="index.php#blog">News</a></li>
+                                    <li class="nav-item"> <a href="index.php#gallery">Gallery</a></li>
+                                    <li class="nav-item drop-down"> <a href="gallary.php">Past Season</a>
+                                        <ul>
+                                            <li><a href="">Season 1(2024)</a></li>
+                                            <li><a href="">Season 2(2025)</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="nav-item"> <a href="#">About</a></li>   
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+ </div>
+<!---End of navigation Bar with past Seasons-->
+
 <!--Main Slider Start-->
 <div class="main-slider">
     <div class="home2-slider rev_slider_wrapper">
@@ -520,8 +549,197 @@
             </div>
         </div>
     </div>
+
+
+<section class="wf100 p80">
+         <div class="container"> 
+             <div class="row"> 
+                 <!-- <div class="col-lg-4 col-md-6"> 
+                      
+                     <div class="next-match-widget"> 
+                         <h5 class="title">Live Scores</h5> 
+                         <div class="nmw-wrap"> 
+                             <ul class="match-teams-vs"> 
+                                 <li class="team-logo"><img src="home/images/logos/AF.png" width="50%" 
+                                         alt=""> <strong>Skyhawks</strong> </li> 
+                                 <li class="mvs"> <strong class="vs">VS</strong> </li> 
+                                 <li class="team-logo"><img src="home/images/logos/RCHC.png" width="50%" 
+                                         alt=""> 
+                                     <strong>Royals</strong> 
+                                 </li> 
+                             </ul> 
+                              <ul class="nmw-txt">
+                                  <li><strong>Super Euro League</strong></li> 
+                                 <li>20 December, 2020</li> 
+                                 <li>04:00 PM GMT+</li> 
+                                 <li><span>New Expo Stadium, NYK</span></li> 
+                             </ul>  
+                             <div class="defaultCountdown is-countdown"><span 
+                                     class="countdown-row countdown-show2"><span class="countdown-section"><span 
+                                             class="countdown-amount">3</span><span 
+                                             class="countdown-period"></span></span><span 
+                                         class="countdown-section"><span class="countdown-amount">4</span><span 
+                                             class="countdown-period"></span></span></div> 
+                             <div class="buy-ticket"><a href="#">08 November, 2025</a></div> 
+                         </div> 
+                     </div> 
+                     
+                 </div>  -->
+                 <div class="col-lg-4 col-md-6"> 
+                        
+                     <div class="next-match-fixtures"> 
+                         <ul class="match-teams-vs"> 
+                             <li class="team-logo"><img src="home/images/logos/Wennappuwa.png" width="50%" 
+                                     alt=""> 
+                                 <strong>Wennappuwa 
+                                 </strong> 
+                             </li> 
+                             <li class="mvs"> 
+                                 <p> <strong style="font-size: 9.3px;">Astro Hockey Turf Colombo</strong> 11 November, 
+                                     2025 
+                                     05:00 PM IST </p> 
+                                 <strong class="vs">VS</strong> 
+                             </li> 
+                             <li class="team-logo"><img src="home/images/logos/Navy.png" width="50%" 
+                                     alt=""> 
+                                 <strong>Navy</strong> 
+                             </li> 
+                         </ul> 
+                         <ul class="nmf-loc"> 
+                             <li style="font-size: 20px;"> 0</li>
+                             <li style="font-size: 20px;"> 0</li> 
+                         </ul> 
+                     </div> 
+                        
+                     <div class="next-match-fixtures mb-4"> 
+                         <ul class="match-teams-vs"> 
+                             <li class="team-logo"><img src="home/images/logos/RCHC.png" width="50%" 
+                                     alt=""> 
+                                 <strong>Royals</strong> 
+                             </li> 
+                             <li class="mvs"> 
+                                 <p> <strong style="font-size: 9.3px;">Astro Hockey Turf Colombo</strong> 11 November, 
+                                     2025 
+                                     06:30 PM IST </p> 
+                                 <strong class="vs">VS</strong> 
+                             </li> 
+                             <li class="team-logo"><img src="home/images/logos/BRC.png" width="50%" 
+                                     alt=""> <strong>BRC </strong> </li> 
+                         </ul> 
+                         <ul class="nmf-loc"> 
+                            <li style="font-size: 20px;"> 0</li>
+                             <li style="font-size: 20px;"> 0</li> 
+                         </ul> 
+                     </div> 
+                        
+                     <div class="next-match-fixtures mb-4"> 
+                         <ul class="match-teams-vs"> 
+                             <li class="team-logo"><img src="home/images/logos/Army.png" width="50%" 
+                                     alt=""> 
+                                 <strong>Defenders</strong> 
+                             </li> 
+                             <li class="mvs"> 
+                                 <p> <strong style="font-size: 9.3px;">Astro Hockey Turf Colombo</strong> 11 November, 
+                                     2025 
+                                     08:00 PM IST </p> 
+                                 <strong class="vs">VS</strong> 
+                             </li> 
+                             <li class="team-logo"><img src="home/images/logos/CH&FC.png" width="50%" 
+                                     alt=""> <strong>Wizards </strong> </li> 
+                         </ul> 
+                         <ul class="nmf-loc"> 
+                             <li style="font-size: 20px;"> 0</li>
+                             <li style="font-size: 20px;"> 0</li>  
+                         </ul> 
+                     </div> 
+                        
+
+                 </div> 
+                
+                 <div class="col-lg-4"> 
+                     <div class="point-table-widget"> 
+                         <table> 
+                             <thead> 
+                                 <tr> 
+                                     <th>P</th> 
+                                     <th>Team</th> 
+                                 </tr> 
+                             </thead> 
+                             <tbody> 
+                                 <tr> 
+                                     <td>1</td> 
+                                     <td><img src="home/images/logos/Army.png" width="15%" alt=""> 
+                                         <strong>Defenders Hockey Club</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <tr> 
+                                     <td>2</td> 
+                                     <td><img src="home/images/logos/AF.png" width="18%" alt=""> 
+                                         <strong>Air Force Skyhawks 
+                                         </strong> 
+                                     </td> 
+                                 </tr> 
+                                 <tr> 
+                                     <td>3</td> 
+                                     <td><img src="home/images/logos/Police.png" width="17%" alt=""> 
+                                         <strong>Police Warriors</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <tr> 
+                                     <td>4</td> 
+                                     <td><img src="home/images/logos/Navy.png" width="18%" alt=""> 
+                                         <strong>Navy Sea Guardians</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <!-- <tr> 
+                                     <td>5</td> 
+                                     <td><img src="home/images/logos/CH&FC.png" width="15%" alt=""> 
+                                         <strong>CH&FC Wizards</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <tr> 
+                                     <td>6</td> 
+                                     <td><img src="home/images/logos/CR&FC.png" width="15%" alt=""> 
+                                         <strong>CR Raptors 
+                                         </strong> 
+                                     </td> 
+
+                                 </tr>  -->
+                                 <tr> 
+                                     <td>5</td> 
+                                     <td><img src="home/images/logos/BRC.png" width="15%" alt=""> 
+                                         <strong>BRC Strikers</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <tr> 
+                                     <td>6</td> 
+                                     <td><img src="home/images/logos/RCHC.png" width="15%" alt=""> 
+                                         <strong>Royals</strong> 
+                                     </td> 
+
+                                 </tr> 
+                                 <tr> 
+                                     <td>7</td> 
+                                     <td><img src="home/images/logos/Wennappuwa.png" width="15%" alt=""> 
+                                         <strong>Wennappuwa Supereroi</strong> 
+                                     </td> 
+
+                                 </tr> 
+                             </tbody> 
+                         </table> 
+                     </div> 
+                 </div> 
+             </div> 
+         </div> 
+     </section>  
+
     <!--Slide tabs end-->
-    <!--<section class="wf100 p80">-->
+    <!-- <section class="wf100 p80">-->
     <!--    <div class="container">-->
     <!--        <div class="row">-->
     <!--            <div class="col-lg-4 col-md-6">-->
@@ -539,11 +757,11 @@
     <!--                            </li>-->
     <!--                        </ul>-->
                             <!-- <ul class="nmw-txt">
-    <!--                            <li><strong>Super Euro League</strong></li>-->
+                                  <li><strong>Super Euro League</strong></li>-->
     <!--                            <li>20 December, 2020</li>-->
     <!--                            <li>04:00 PM GMT+</li>-->
     <!--                            <li><span>New Expo Stadium, NYK</span></li>-->
-    <!--                        </ul> -->-->
+    <!--                        </ul> -->
     <!--                        <div class="defaultCountdown is-countdown"><span-->
     <!--                                class="countdown-row countdown-show2"><span class="countdown-section"><span-->
     <!--                                        class="countdown-amount">3</span><span-->
@@ -711,7 +929,9 @@
     <!--            </div>-->
     <!--        </div>-->
     <!--    </div>-->
-    <!--</section>-->
+    <!--</section> -->
+
+    
 
     <!--section instead of sport Widgets Start-->
     <section class="wf100 p8" id="matches">

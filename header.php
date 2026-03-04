@@ -90,7 +90,7 @@
             </div>
             <!--topbar end-->
             <!--Logo + Navbar Start-->
-            <div class="logo-navbar">
+            <!-- <div class="logo-navbar">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2 col-sm-5">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--Logo + Navbar End-->
         </header>
     </div>
